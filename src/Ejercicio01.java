@@ -9,10 +9,10 @@ public class Ejercicio01 {
         int mayor=0;
         int posicion=0;
         for (int i =0 ; i<10; i++){
-            System.out.println("ingrese cantidad del sector "+i);
+            System.out.println("ingrese cantidad del sector "+(i+1));
             sectores[i]= scanner.nextInt();
             if (sectores[i]<0){
-                System.out.println("valor no valido ingrese de nuevo el valor "+i);
+                System.out.println("valor no valido ingrese de nuevo el valor "+(i+1));
                 sectores[i]= scanner.nextInt();
             }
             suma= suma+ sectores[i];
